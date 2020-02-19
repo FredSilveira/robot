@@ -1,7 +1,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-npx create-react-app my-app 
-cd my-app 
+npx create-react-app my-app<br />
+cd my-app<br />
 npm start
 
 ## Available Scripts
