@@ -1,10 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import Hello from './Hello';
-import * as serviceWorker from './serviceWorker';
+import React from "react";
+import ReactDOM from "react-dom";
+import "./index.css";
+import Hello from "./Hello";
+import Greet from "./Answer";
+import * as serviceWorker from "./serviceWorker";
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(
+  <div>
+    <Hello asking="How you doing?" />
+    <Greet answer="Great" />
+  </div>,
+  document.getElementById("root")
+);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
