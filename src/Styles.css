@@ -1,0 +1,57 @@
+.appContainer {
+  text-align: center;
+}
+
+.appTitle {
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+.searchBoxContainer {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+
+.searchBox {
+  padding: 12px;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 3px;
+  border-color: lightskyblue;
+  background-color: lightsteelblue;
+}
+
+::placeholder {
+  color: #25557c;
+  opacity: 1; /* Firefox */
+}
+
+.dudesWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  grid-gap: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.dudeContainer {
+  display: inline-block;
+  background-color: #eee;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 8px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+}
+
+.dudeContainer:hover {
+  transform: translateY(-25px);
+}
+
+.email {
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+}
